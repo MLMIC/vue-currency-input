@@ -1,6 +1,6 @@
 import { count, escapeRegExp, startsWith, substringBefore } from './utils/stringUtils'
 
-export const DECIMAL_SYMBOLS = [',', '.', '٫']
+export const DECIMAL_SYMBOLS = [ '.']
 export const INTEGER_PATTERN = '(0|[1-9]\\d*)'
 
 export default class NumberFormat {
